@@ -30,21 +30,20 @@ CREATE TABLE products (
 
 ```
 ## Database Setup (AWS RDS)
-Create a MySQL instance on AWS RDS
-Note down:
-Host endpoint
-Port (default: 3306)
-Database name
-Username & Password
-Enable inbound rule for 3306 in Security Group
-Update DB credentials in DBConnection.java before running
+- Create a MySQL instance on AWS RDS and Note down:
+- Host endpoint
+- Port (default: 3306)
+- Database name
+- Username & Password
+- Enable inbound rule for 3306 in Security Group
+- Update DB credentials in DBConnection.java before running
 
 ## Update Database Credentials
 In DBConnection.java, update:
-Host
-Port
-Database Name
-Username & Password
+- Host
+- Port
+- Database Name
+- Username & Password
 
 ## Compile Code
 javac -cp ".;mysql-connector-j-9.5.0.jar" server\*.java client\*.java common\*.java
