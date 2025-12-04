@@ -30,7 +30,7 @@ CREATE TABLE products (
 
 ```
 ## Database Setup (AWS RDS)
-- Create a MySQL instance on AWS RDS and Note down:
+Create a MySQL instance on AWS RDS and Note down:
 - Host endpoint
 - Port (default: 3306)
 - Database name
